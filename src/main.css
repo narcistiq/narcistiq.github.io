@@ -2,17 +2,36 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+
+    background-color: #f4f1ed;
+    font-family: "Manrope", sans-serif;
     /* add font here */
 }
 .page-container {
     display: grid;
-    grid-template-columns: 250px 1fr; 
+    grid-template-columns: 330px 1fr; 
 }
 
 .sidebar {
     position: sticky; 
-    background-color: #dedede;
-    min-height: 100vh;
+    background-color: #e6e4e0;
+    height: 100vh;
+    padding: 50px 40px;
+}
+
+
+.sidebar-content {
+}
+
+.profile-image {
+    background-color: #c6c3bd;
+    height: 250px;
+    width: 250px;
+
+}
+
+.branding {
+    font-size: 1.25rem;
 }
 
 .main-content {
