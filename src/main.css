@@ -92,6 +92,21 @@ body {
     color: var(--black);
 }
 
+.social-links {
+    width: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    gap: 8px;
+}
+
+.social-links a {
+    display: flex; 
+    text-decoration: none;      
+    color: var(--black);
+}
+
 /* Here starts the CSS for the page instead of the sidebar */
 
 .main-content {
