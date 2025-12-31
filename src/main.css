@@ -46,7 +46,6 @@ body {
     background-color: #c6c3bd;
     height: 250px;
     width: 250px;
-
 }
 
 .branding {
@@ -65,28 +64,32 @@ body {
     color: #666;
 }
 
-ul {
+.nav-list {
     font-size: 1.25rem;
 
     list-style: none;
-    border-left: 3px solid;
-    padding-left: 14px;
+    border-left: 2px solid;
 
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
-    transition: all 0.2s ease-in-out;
 }
 
-li :hover,
-li :focus {
-    font-weight: bold;
-}
+.nav-list a {
+    padding-left: 14px;
+    border-left: 3px solid transparent;
+    transition: 0.2s ease-in-out;
 
-li a {
     text-decoration: none;
     color: var(--black);
-    transition: 0.2s ease;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+    border-left: 2px solid;
+    font-weight: bold;
+
+    color: var(--black);
 }
 
 /* Here starts the CSS for the page instead of the sidebar */
