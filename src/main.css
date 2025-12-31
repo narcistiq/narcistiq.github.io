@@ -13,6 +13,7 @@ body {
     font-family: "Manrope", sans-serif;
     /* add font here */
 }
+
 .page-container {
     display: grid;
     grid-template-columns: 330px 1fr; 
@@ -25,7 +26,6 @@ body {
     padding: 50px 40px;
 }
 
-
 .sidebar-content {
     display: flex;
     flex-direction: column;
@@ -37,6 +37,7 @@ body {
     flex-direction: column;
     gap: 10px;
 }
+
 .profile-image {
     background-color: #c6c3bd;
     height: 250px;
@@ -46,6 +47,18 @@ body {
 
 .branding {
     font-size: 1.25rem;
+}
+
+.branding p {
+    margin: 0;
+    line-height: 1.1;
+}
+
+.branding span {
+    font-size: 0.75rem;
+    display: block;
+    margin-top: 4px;
+    color: #666;
 }
 
 .main-content {
