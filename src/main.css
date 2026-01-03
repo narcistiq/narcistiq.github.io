@@ -25,11 +25,18 @@ body {
 }
 
 .sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     position: sticky;
     top: 0; 
     height: 100vh;
     padding: 50px 40px;
     background-color: #e6e6e6;
+}
+
+.sidebar footer {
+    margin-bottom: -5px;
 }
 
 .sidebar-content {
