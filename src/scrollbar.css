@@ -14,3 +14,9 @@
 ::-webkit-scrollbar-thumb:hover {
     background: var(--black);
 }
+
+@supports (scrollbar-color: red blue) {
+    * {
+        scrollbar-width: thin;
+    }
+}
