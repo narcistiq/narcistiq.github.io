@@ -206,6 +206,8 @@ body {
 .project-image-container {
     height: 185px;
     width: 300px;
+    min-width: 300px;
+    flex-shrink: 0;
     position: relative;
     background-color: var(--gray);
     box-shadow: 15px 15px 0px 0px var(--black);
@@ -254,4 +256,40 @@ body {
 .language-badges {
     display: flex;
     flex-wrap: wrap;
+}
+
+@media (max-width: 960px) {
+    .main-content {
+        padding: 40px;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .page-container {
+        display: block; 
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 20px;
+    }
+
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
