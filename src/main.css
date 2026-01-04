@@ -258,6 +258,11 @@ body {
     flex-wrap: wrap;
 }
 
+.language-badges img {
+    height: 20px;
+    width: auto;
+}
+
 @media (max-width: 960px) {
     .main-content {
         padding: 40px;
