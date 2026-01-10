@@ -37,7 +37,7 @@ body {
     position: sticky;
     top: 0; 
     height: 100vh;
-    padding: 50px 40px;
+    padding: 40px 40px;
     background-color: #e6e6e6;
 }
 
@@ -48,7 +48,7 @@ body {
 .sidebar-content {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 2.125rem;
 }
 
 .profile-container {
@@ -57,10 +57,14 @@ body {
     gap: 10px;
 }
 
-.profile-image {
-    background-color: var(--gray);
-    height: 250px;
+.profile-image-container {
+    display: flex;
+    align-items: end;
     width: 250px;
+}
+
+.profile-image {
+    width: 100%;
 }
 
 .branding {
