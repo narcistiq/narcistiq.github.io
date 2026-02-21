@@ -255,6 +255,7 @@ body {
 
 .project-title svg:hover {
     stroke: black;
+    fill: black;
 }
 
 .language-badges {
